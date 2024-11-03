@@ -1,0 +1,17 @@
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\bin\Debug\net8.0-windows\Assignment2-PieChart.exe
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\bin\Debug\net8.0-windows\Assignment2-PieChart.deps.json
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\bin\Debug\net8.0-windows\Assignment2-PieChart.runtimeconfig.json
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\bin\Debug\net8.0-windows\Assignment2-PieChart.dll
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\bin\Debug\net8.0-windows\Assignment2-PieChart.pdb
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2_PieChart.Form1.resources
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.csproj.GenerateResource.cache
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.GeneratedMSBuildEditorConfig.editorconfig
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.AssemblyInfoInputs.cache
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.AssemblyInfo.cs
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.csproj.CoreCompileInputs.cache
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.dll
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\refint\Assignment2-PieChart.dll
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.pdb
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2-PieChart.genruntimeconfig.cache
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\ref\Assignment2-PieChart.dll
+C:\SODV2101 - Rapid Application Development\Assignments\Assignment2-PieChart\Assignment2-PieChart\obj\Debug\net8.0-windows\Assignment2_PieChart.Properties.Resources.resources
