@@ -57,63 +57,28 @@ namespace Assignment2_PieChart
 
         private void DrawPieChart(Graphics g, List<int> values)
         {
-            //// Calculate total and angles for each slice
-            //var total = values.Sum();
-            //var angles = values.Select(v => (float)v / total * 360).ToList();
-
-            //// Define colors for the slices
-            //var colors = new List<Color> { Color.Red, Color.Green, Color.Blue, Color.Yellow, Color.Orange };
-
-            //// Initialize brushes explicitly
-            //List<Brush> brushes = new List<Brush>();
-            //foreach (var color in colors)
-            //{
-            //    brushes.Add(new SolidBrush(color));
-            //}
-
-            //// Draw each slice
-            //float startAngle = 0f;
-            //for (int i = 0; i < angles.Count; i++)
-            //{
-            //    g.FillPie(brushes[i % brushes.Count], 10, 10, 200, 200, startAngle, angles[i]);
-            //    startAngle += angles[i];
-            //}
-
-            //// Draw the legend
-            //DrawLegend(g, values, brushes);
-
-            //// Dispose of the brushes after use to free resources
-            //foreach (var brush in brushes)
-            //{
-            //    brush.Dispose();
-            //}
-
-            // Get panel dimensions
+            // get panel size
             int panelWidth = pieChartPanel.Width;
             int panelHeight = pieChartPanel.Height;
 
-            // Set the size of the pie chart (slightly smaller than the panel)
-            int pieWidth = panelWidth - 20;  // Leave some padding
-            int pieHeight = panelHeight - 20; // Leave some padding
+            // set the size of the pie chart (slightly smaller than the panel)
+            int pieWidth = panelWidth - 20;
+            int pieHeight = panelHeight - 20;
 
-            // Ensure the pie chart is square by taking the smaller dimension
             int pieSize = Math.Min(pieWidth, pieHeight);
 
-            // Calculate total and angles for each slice
             var total = values.Sum();
             var angles = values.Select(v => (float)v / total * 360).ToList();
 
-            // Define colors for the slices
             var colors = new List<Color> { Color.Red, Color.Green, Color.Blue, Color.Yellow, Color.Orange };
 
-            // Initialize brushes explicitly
             List<Brush> brushes = new List<Brush>();
             foreach (var color in colors)
             {
                 brushes.Add(new SolidBrush(color));
             }
 
-            // Draw each slice
+            // draw each slice of the pie
             float startAngle = 0f;
             for (int i = 0; i < angles.Count; i++)
             {
@@ -121,39 +86,23 @@ namespace Assignment2_PieChart
                 startAngle += angles[i];
             }
 
-            // Draw the legend, placing it to the right of the pie chart
-            int legendX = pieSize + 100; // Adjust based on the pie chart's size
-            int legendY = 10; // Keep some padding at the top
+            // for the legend
+            int legendX = pieSize + 100;
+            int legendY = 10;
             DrawLegend(g, values, brushes, legendX, legendY);
 
-            // Dispose of the brushes after use to free resources
             foreach (var brush in brushes)
             {
                 brush.Dispose();
             }
         }
 
-        //private void DrawLegend(Graphics g, List<int> values, List<Brush> brushes)
-        //{
-        //    int legendX = 220;
-        //    int legendY = 20;
-        //    int legendItemHeight = 20;
-
-        //    for (int i = 0; i < values.Count; i++)
-        //    {
-        //        // Use the brush for the legend color
-        //        g.FillRectangle(brushes[i % brushes.Count], legendX, legendY + i * legendItemHeight, 15, 15);
-        //        g.DrawString(values[i].ToString(), this.Font, Brushes.Black, legendX + 20, legendY + i * legendItemHeight);
-        //    }
-        //}
-
         private void DrawLegend(Graphics g, List<int> values, List<Brush> brushes, int legendX, int legendY)
         {
-            int legendItemHeight = 20; // Height of each legend item
+            int legendItemHeight = 20; 
 
             for (int i = 0; i < values.Count; i++)
             {
-                // Use the brush for the legend color
                 g.FillRectangle(brushes[i % brushes.Count], legendX, legendY + i * legendItemHeight, 15, 15);
                 g.DrawString(values[i].ToString(), this.Font, Brushes.Black, legendX + 20, legendY + i * legendItemHeight);
             }
